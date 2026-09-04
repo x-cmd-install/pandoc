@@ -1,0 +1,74 @@
+about:
+  description: Universal markup converter
+  license: GPL-2.0
+  homepage: https://pandoc.org
+  head: 65ba794
+  archived: false
+  latestVersion: 3.11
+  collectedAt: 2026-09-04T05:04:41Z
+timeline:
+  created: 2010-03-20
+  lastCommit: 2026-09-04
+  lastRelease: 2026-08-29
+popularity:
+  star: 46130
+  watcher: 533
+  fork: 3954
+  release: 159
+  contributor: 581
+  pullRequest: 538
+  issue: 8350
+language:
+  Haskell: 4694614
+  Roff: 351220
+  Rich Text Format: 277961
+  HTML: 127505
+  Lua: 111301
+  JavaScript: 64725
+  Jupyter Notebook: 33428
+  Typst: 17188
+  Makefile: 14577
+  Python: 12819
+  Shell: 11813
+  BBCode: 11771
+  Nix: 9216
+  TeX: 5380
+  CSS: 4782
+  Perl: 3182
+  Emacs Lisp: 2217
+  Smarty: 110
+  Ruby: 37
+totalLine: 5753846
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 2
+    mergedPR: 5
+    openPR: 3
+    closedIssue: 18
+    openIssue: 7
+    commit: 89
+  last90d:
+    since: 2026-06-06
+    release: 3
+    mergedPR: 27
+    openPR: 4
+    closedIssue: 55
+    openIssue: 19
+    commit: 224
+  last180d:
+    since: 2026-03-08
+    release: 6
+    mergedPR: 42
+    openPR: 6
+    closedIssue: 131
+    openIssue: 37
+    commit: 441
+  last360d:
+    since: 2025-09-09
+    release: 11
+    mergedPR: 104
+    openPR: 11
+    closedIssue: 272
+    openIssue: 70
+    commit: 862
