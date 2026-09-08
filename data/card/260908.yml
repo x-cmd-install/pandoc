@@ -2,24 +2,24 @@ about:
   description: "Universal markup converter"
   license: GPL-2.0
   homepage: https://pandoc.org
-  head: 1791dd8
+  head: a01e49e
   archived: false
   latestVersion: "3.11"
-  collectedAt: 2026-09-08T01:57:54Z
+  collectedAt: 2026-09-08T04:47:53Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-08
   lastRelease: 2026-08-29
 popularity:
-  star: 46177
+  star: 46180
   watcher: 534
-  fork: 3960
+  fork: 3961
   release: 159
   contributor: 582
   pullRequest: 2344
   issue: 8351
 language:
-  Haskell: 4766768
+  Haskell: 4725647
   Roff: 351220
   Rich Text Format: 277961
   HTML: 127505
@@ -38,7 +38,7 @@ language:
   Emacs Lisp: 2217
   Smarty: 110
   Ruby: 37
-totalBytes: 5826172
+totalBytes: 5785051
 recent:
   last30d:
     since: 2026-08-09
@@ -47,7 +47,7 @@ recent:
     openPR: 4
     closedIssue: 18
     openIssue: 6
-    commit: 145
+    commit: 148
   last60d:
     since: 2026-07-10
     release: 3
@@ -55,7 +55,7 @@ recent:
     openPR: 4
     closedIssue: 31
     openIssue: 11
-    commit: 210
+    commit: 213
   last90d:
     since: 2026-06-10
     release: 3
@@ -63,7 +63,7 @@ recent:
     openPR: 5
     closedIssue: 53
     openIssue: 18
-    commit: 269
+    commit: 272
   last180d:
     since: 2026-03-12
     release: 6
@@ -71,7 +71,7 @@ recent:
     openPR: 6
     closedIssue: 129
     openIssue: 35
-    commit: 502
+    commit: 505
   last360d:
     since: 2025-09-13
     release: 11
@@ -79,7 +79,7 @@ recent:
     openPR: 11
     closedIssue: 273
     openIssue: 70
-    commit: 919
+    commit: 922
   last720d:
     since: 2024-09-18
     release: 21
@@ -87,23 +87,23 @@ recent:
     openPR: 20
     closedIssue: 632
     openIssue: 119
-    commit: 1573
+    commit: 1575
 total:
   release: 159
   mergedPR: 1805
   openPR: 79
   closedIssue: 7400
   openIssue: 951
-  commit: 19271
+  commit: 19273
 ---
 path: /home/runner/.x-repo/github.com/jgm/pandoc
-collectedAt: 2026-09-08T01:58:11Z
+collectedAt: 2026-09-08T04:48:07Z
 loc:
   Haskell:
-    code: 100764
-    comments: 12847
-    blanks: 9776
-    files: 368
+    code: 100155
+    comments: 12587
+    blanks: 9651
+    files: 365
   Xml:
     code: 4491
     comments: 0
@@ -130,7 +130,7 @@ loc:
     blanks: 168
     files: 2
   Cabal:
-    code: 1217
+    code: 1214
     comments: 18
     blanks: 43
     files: 4
@@ -235,10 +235,10 @@ loc:
     blanks: 4497
     files: 20
 total:
-  code: 122348
-  comments: 109303
-  blanks: 33797
-  files: 1882
+  code: 121736
+  comments: 109043
+  blanks: 33672
+  files: 1879
 ---
 date: "2026-09-07"
 repo:
