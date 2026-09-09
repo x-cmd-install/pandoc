@@ -2,12 +2,12 @@ about:
   description: "Universal markup converter"
   license: GPL-2.0
   homepage: https://pandoc.org
-  head: 0e399cc
+  head: cbbbf31
   archived: false
   latestVersion: "3.11"
   latestRelease: "3.11"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:53:09Z
+  collectedAt: 2026-09-09T19:02:20Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-09
@@ -15,15 +15,15 @@ timeline:
   lastRelease: 2026-08-29
   lastPrerelease: 
 popularity:
-  star: 46196
+  star: 46204
   watcher: 534
-  fork: 3963
+  fork: 3964
   release: 159
-  contributor: 582
+  contributor: 583
   pullRequest: 2347
-  issue: 8356
+  issue: 8357
 language:
-  Haskell: 4737695
+  Haskell: 4738405
   Roff: 351220
   Rich Text Format: 277961
   HTML: 127505
@@ -42,70 +42,70 @@ language:
   Emacs Lisp: 2217
   Smarty: 110
   Ruby: 37
-totalBytes: 5797099
+totalBytes: 5797809
 recent:
   last30d:
     since: 2026-08-10
     release: 2
-    mergedPR: 5
-    openPR: 6
-    closedIssue: 18
+    mergedPR: 6
+    openPR: 5
+    closedIssue: 19
     openIssue: 10
-    commit: 214
+    commit: 221
   last60d:
     since: 2026-07-11
     release: 3
-    mergedPR: 14
-    openPR: 6
-    closedIssue: 31
+    mergedPR: 15
+    openPR: 5
+    closedIssue: 32
     openIssue: 15
-    commit: 279
+    commit: 286
   last90d:
     since: 2026-06-11
     release: 3
-    mergedPR: 26
-    openPR: 7
-    closedIssue: 54
+    mergedPR: 27
+    openPR: 6
+    closedIssue: 55
     openIssue: 22
-    commit: 338
+    commit: 345
   last180d:
     since: 2026-03-13
     release: 6
-    mergedPR: 41
-    openPR: 8
-    closedIssue: 130
+    mergedPR: 42
+    openPR: 7
+    closedIssue: 131
     openIssue: 39
-    commit: 571
+    commit: 578
   last360d:
     since: 2025-09-14
     release: 11
-    mergedPR: 101
-    openPR: 13
-    closedIssue: 272
+    mergedPR: 102
+    openPR: 12
+    closedIssue: 273
     openIssue: 74
-    commit: 988
+    commit: 995
   last720d:
     since: 2024-09-19
     release: 21
-    mergedPR: 218
-    openPR: 22
-    closedIssue: 630
+    mergedPR: 219
+    openPR: 21
+    closedIssue: 631
     openIssue: 122
-    commit: 1611
+    commit: 1615
 total:
   release: 159
-  mergedPR: 1805
-  openPR: 81
-  closedIssue: 7401
+  mergedPR: 1806
+  openPR: 80
+  closedIssue: 7402
   openIssue: 955
-  commit: 19310
+  commit: 19314
 ---
 path: /home/runner/.x-repo/github.com/jgm/pandoc
-collectedAt: 2026-09-09T04:53:22Z
+collectedAt: 2026-09-09T19:02:40Z
 loc:
   Haskell:
-    code: 100345
-    comments: 12654
+    code: 100350
+    comments: 12661
     blanks: 9662
     files: 365
   Xml:
@@ -239,8 +239,8 @@ loc:
     blanks: 4497
     files: 20
 total:
-  code: 121927
-  comments: 109213
+  code: 121932
+  comments: 109220
   blanks: 33697
   files: 1883
 ---
