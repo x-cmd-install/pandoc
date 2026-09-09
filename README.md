@@ -7,7 +7,7 @@ Universal markup converter
 - **Latest release**: `3.11` (2026-08-29)
 - **Last commit**: 2026-09-09
 - **License**: GPL-2.0
-- **Stars**: 46196 · **Forks**: 3963 · **Open issues**: 8356 · **Contributors**: 582
+- **Stars**: 46204 · **Forks**: 3964 · **Open issues**: 8357 · **Contributors**: 583
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/pandoc> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:53:28Z._
+_Last regenerated: 2026-09-09T19:02:50Z._
