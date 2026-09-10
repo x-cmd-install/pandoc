@@ -7,7 +7,7 @@ about:
   latestVersion: "3.11"
   latestRelease: "3.11"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:45:32Z
+  collectedAt: 2026-09-10T22:09:00Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-10
@@ -101,7 +101,7 @@ total:
   commit: 19337
 ---
 path: /home/runner/.x-repo/github.com/jgm/pandoc
-collectedAt: 2026-09-10T21:46:04Z
+collectedAt: 2026-09-10T22:09:15Z
 loc:
   Haskell:
     code: 100377
