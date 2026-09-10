@@ -4,7 +4,7 @@
 
 Universal markup converter
 
-![pandoc](https://repo.x-cmd.io/pandoc.svg)
+![pandoc](https://repo.x-cmd.io/pandoc.svg?lang=zh)
 
 ## 安装
 
@@ -21,33 +21,48 @@ x install pandoc
 ## 发布
 
 - **最新版本**: `3.11` (2026-08-29)
-- **最近提交**: 2026-09-09
+- **最近提交**: 2026-09-10
 - **Release 含资产**: 11 个
-- **发布时间**: 2026-08-29T00:52:49Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [pandoc-3.11-1-amd64.deb](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-amd64.deb) | 32.8 MiB | `other` |
+| [pandoc-3.11-1-arm64.deb](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-arm64.deb) | 35.2 MiB | `other` |
+| [pandoc-3.11-arm64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-arm64-macOS.pkg) | 39.8 MiB | `native/darwin/arm64` |
+| [pandoc-3.11-arm64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-arm64-macOS.zip) | 39.9 MiB | `native/darwin/arm64` |
+| [pandoc-3.11-linux-amd64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-linux-amd64.tar.gz) | 33.3 MiB | `native/linux/x64` |
+| [pandoc-3.11-linux-arm64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-linux-arm64.tar.gz) | 35.7 MiB | `native/linux/arm64` |
+| [pandoc-3.11-windows-x86_64.msi](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-windows-x86_64.msi) | 39.6 MiB | `native/win/x64` |
+| [pandoc-3.11-windows-x86_64.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-windows-x86_64.zip) | 39.8 MiB | `native/win/x64` |
+| [pandoc-3.11-x86_64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-x86_64-macOS.pkg) | 24.9 MiB | `native/darwin/x64` |
+| [pandoc-3.11-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-x86_64-macOS.zip) | 24.9 MiB | `native/darwin/x64` |
+| [pandoc-3.11.wasm.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11.wasm.zip) | 15.7 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 46,209 · **Fork**: 3,964 · **开放 issue**: 8,357 · **贡献者**: 583
+- **Star**: 46,219 · **Fork**: 3,965 · **开放 issue**: 8,358 · **贡献者**: 583
 
 ## 累计统计
 
-- **发布数**: 159 · **已合并 PR**: 1806 · **开放 PR**: 80 · **已关闭 issue**: 7402 · **开放 issue**: 955 · **提交数**: 19324
+- **发布数**: 159 · **已合并 PR**: 1806 · **开放 PR**: 80 · **已关闭 issue**: 7402 · **开放 issue**: 956 · **提交数**: 19336
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 6 | 5 | 19 | 10 | 239 |
-| 90d | 2026-06-12 | 3 | 25 | 6 | 54 | 20 | 363 |
-| 360d | 2025-09-15 | 11 | 101 | 12 | 272 | 74 | 1013 |
+| 30d | 2026-08-11 | 2 | 6 | 5 | 19 | 11 | 263 |
+| 90d | 2026-06-12 | 3 | 25 | 6 | 54 | 21 | 387 |
+| 360d | 2025-09-15 | 11 | 101 | 12 | 272 | 75 | 1037 |
 
 ## 代码规模
 
-合计: **120,335** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
+合计: **120,388** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 100,324 | 12,677 | 9,658 | 365 |
+| Haskell | 100,377 | 12,702 | 9,657 | 365 |
 | Xml | 4,491 | 0 | 2 | 47 |
 | Lua | 3,236 | 181 | 208 | 48 |
 | Yaml | 2,537 | 161 | 53 | 130 |
@@ -72,4 +87,4 @@ pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:49:16Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:48:00Z._
