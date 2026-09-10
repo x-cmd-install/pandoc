@@ -2,12 +2,12 @@ about:
   description: "Universal markup converter"
   license: GPL-2.0
   homepage: https://pandoc.org
-  head: 2b68672
+  head: b46a3b0
   archived: false
   latestVersion: "3.11"
   latestRelease: "3.11"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T16:47:03Z
+  collectedAt: 2026-09-10T21:45:32Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-10
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-29
   lastPrerelease: 
 popularity:
-  star: 46219
+  star: 46225
   watcher: 534
-  fork: 3965
+  fork: 3966
   release: 159
   contributor: 583
   pullRequest: 2347
@@ -51,7 +51,7 @@ recent:
     openPR: 5
     closedIssue: 19
     openIssue: 11
-    commit: 263
+    commit: 264
   last60d:
     since: 2026-07-12
     release: 3
@@ -59,7 +59,7 @@ recent:
     openPR: 5
     closedIssue: 32
     openIssue: 16
-    commit: 328
+    commit: 329
   last90d:
     since: 2026-06-12
     release: 3
@@ -67,7 +67,7 @@ recent:
     openPR: 6
     closedIssue: 54
     openIssue: 21
-    commit: 387
+    commit: 388
   last180d:
     since: 2026-03-14
     release: 6
@@ -75,7 +75,7 @@ recent:
     openPR: 7
     closedIssue: 129
     openIssue: 40
-    commit: 620
+    commit: 621
   last360d:
     since: 2025-09-15
     release: 11
@@ -83,7 +83,7 @@ recent:
     openPR: 12
     closedIssue: 272
     openIssue: 75
-    commit: 1037
+    commit: 1038
   last720d:
     since: 2024-09-20
     release: 21
@@ -91,17 +91,17 @@ recent:
     openPR: 21
     closedIssue: 630
     openIssue: 123
-    commit: 1636
+    commit: 1637
 total:
   release: 159
   mergedPR: 1806
   openPR: 80
   closedIssue: 7402
   openIssue: 956
-  commit: 19336
+  commit: 19337
 ---
 path: /home/runner/.x-repo/github.com/jgm/pandoc
-collectedAt: 2026-09-10T16:47:27Z
+collectedAt: 2026-09-10T21:46:04Z
 loc:
   Haskell:
     code: 100377
