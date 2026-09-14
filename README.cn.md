@@ -14,14 +14,14 @@ x install pandoc
 
 ## 代码洞察
 
-合计: **120,471** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
+合计: **120,473** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Haskell | 100,456 | 12,724 | 9,664 | 365 |
 | Xml | 4,491 | 0 | 2 | 47 |
 | Lua | 3,236 | 181 | 208 | 48 |
-| Yaml | 2,539 | 161 | 53 | 130 |
+| Yaml | 2,541 | 161 | 53 | 130 |
 | Html | 2,243 | 58 | 54 | 13 |
 
 ## OpenSSF Scorecard 评分
@@ -48,22 +48,22 @@ x install pandoc
 
 ## 流行度
 
-- **Star**: 46,256 · **Fork**: 3,971 · **开放 issue**: 8,363 · **贡献者**: 583
+- **Star**: 46,267 · **Fork**: 3,972 · **开放 issue**: 8,365 · **贡献者**: 582
 
 ## 累计统计
 
-- **发布数**: 159 · **已合并 PR**: 1806 · **开放 PR**: 83 · **已关闭 issue**: 7406 · **开放 issue**: 957 · **提交数**: 19353
+- **发布数**: 159 · **已合并 PR**: 1806 · **开放 PR**: 84 · **已关闭 issue**: 7407 · **开放 issue**: 958 · **提交数**: 19354
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 6 | 7 | 23 | 11 | 265 |
-| last60d | 2026-07-15 | 3 | 15 | 8 | 34 | 16 | 319 |
-| 90d | 2026-06-15 | 3 | 25 | 8 | 58 | 22 | 400 |
-| last180d | 2026-03-17 | 6 | 41 | 10 | 127 | 39 | 597 |
-| 360d | 2025-09-18 | 11 | 101 | 15 | 270 | 76 | 1045 |
-| last720d | 2024-09-23 | 21 | 219 | 24 | 632 | 124 | 1639 |
+| 30d | 2026-08-15 | 1 | 6 | 8 | 23 | 12 | 266 |
+| last60d | 2026-07-16 | 3 | 15 | 9 | 35 | 16 | 320 |
+| 90d | 2026-06-16 | 3 | 24 | 9 | 57 | 22 | 401 |
+| last180d | 2026-03-18 | 6 | 41 | 11 | 127 | 39 | 598 |
+| 360d | 2025-09-19 | 11 | 101 | 16 | 270 | 77 | 1046 |
+| last720d | 2024-09-24 | 21 | 219 | 25 | 630 | 125 | 1639 |
 
 ## Release 资产
 
@@ -81,24 +81,6 @@ x install pandoc
 | [pandoc-3.11-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-x86_64-macOS.zip) | 24.9 MiB | `native/darwin/x64` |
 | [pandoc-3.11.wasm.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11.wasm.zip) | 15.7 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/pandoc) 上共有 **299** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**128** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.11` | ✅ latest |
-| Debian 14 | `3.10.2` | ⚠️ outdated |
-| Debian 13 | `3.1.11.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.7.0.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.1.3` | ⚠️ outdated |
-| Arch | `3.10.2` | ⚠️ outdated |
-| Homebrew | `3.11` | ✅ latest |
-| Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
-| Nix unstable | `3.7.0.2` | 🪦 legacy |
-| Void | `3.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.10` | ⚠️ outdated |
-
 ## 改进这些数据
 
 pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `pandoc` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -108,4 +90,4 @@ pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:02:02Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:08:35Z._
