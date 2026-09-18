@@ -14,14 +14,14 @@ x install pandoc
 
 ## Code insight
 
-Total: **120,950** lines of code across **603** files in the top 5 languages.
+Total: **120,952** lines of code across **603** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Haskell | 100,934 | 12,871 | 9,723 | 365 |
 | Xml | 4,491 | 0 | 2 | 47 |
 | Lua | 3,236 | 181 | 208 | 48 |
-| Yaml | 2,541 | 161 | 53 | 130 |
+| Yaml | 2,543 | 161 | 53 | 130 |
 | Html | 2,243 | 58 | 54 | 13 |
 
 ## OpenSSF Scorecard
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 46,305 · **Forks**: 4,015 · **Open issues**: 8,366 · **Contributors**: 584
+- **Stars**: 46,321 · **Forks**: 4,121 · **Open issues**: 8,367 · **Contributors**: 584
 
 ## Totals (cumulative)
 
-- **Releases**: 159 · **Merged PRs**: 1810 · **Open PRs**: 83 · **Closed issues**: 7409 · **Open issues**: 957 · **Commits**: 19394
+- **Releases**: 159 · **Merged PRs**: 1810 · **Open PRs**: 83 · **Closed issues**: 7410 · **Open issues**: 957 · **Commits**: 19395
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 1 | 9 | 7 | 19 | 10 | 342 |
-| last60d | 2026-07-19 | 3 | 19 | 8 | 37 | 15 | 396 |
-| 90d | 2026-06-19 | 3 | 27 | 8 | 57 | 20 | 477 |
-| last180d | 2026-03-21 | 4 | 45 | 9 | 125 | 37 | 674 |
-| 360d | 2025-09-22 | 11 | 104 | 15 | 270 | 76 | 1122 |
-| last720d | 2024-09-27 | 21 | 222 | 24 | 625 | 123 | 1677 |
+| 30d | 2026-08-19 | 1 | 9 | 7 | 20 | 9 | 343 |
+| last60d | 2026-07-20 | 3 | 15 | 8 | 38 | 15 | 397 |
+| 90d | 2026-06-20 | 3 | 27 | 8 | 58 | 20 | 478 |
+| last180d | 2026-03-22 | 4 | 45 | 9 | 125 | 37 | 675 |
+| 360d | 2025-09-23 | 11 | 104 | 15 | 269 | 76 | 1123 |
+| last720d | 2024-09-28 | 21 | 222 | 24 | 624 | 123 | 1677 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T05:10:24Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T04:56:04Z._
