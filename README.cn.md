@@ -4,7 +4,7 @@
 
 Universal markup converter
 
-[![x-cmd/install — pandoc Code Quality Monitoring Repo Card](https://repo.x-cmd.io/pandoc.svg?lang=zh)](https://x-cmd.com/install/pandoc)
+[![x-cmd/install — pandoc Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/pandoc.svg?lang=zh)](https://x-cmd.com/install/pandoc)
 
 ## 安装
 
@@ -14,14 +14,14 @@ x install pandoc
 
 ## 代码洞察
 
-合计: **121,061** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
+合计: **121,079** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Haskell | 101,041 | 12,912 | 9,731 | 365 |
 | Xml | 4,491 | 0 | 2 | 47 |
 | Lua | 3,236 | 181 | 208 | 48 |
-| Yaml | 2,545 | 161 | 54 | 130 |
+| Yaml | 2,545 | 163 | 54 | 130 |
 | Html | 2,243 | 58 | 54 | 13 |
 
 ## OpenSSF Scorecard 评分
@@ -30,9 +30,9 @@ x install pandoc
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **SAST** (0/10) — no SAST tool detected
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install pandoc
 
 ## 流行度
 
-- **Star**: 46,370 · **Fork**: 4,425 · **开放 issue**: 8,368 · **贡献者**: 585
+- **Star**: 46,384 · **Fork**: 4,428 · **开放 issue**: 8,369 · **贡献者**: 585
 
 ## 累计统计
 
-- **发布数**: 159 · **已合并 PR**: 1812 · **开放 PR**: 86 · **已关闭 issue**: 7413 · **开放 issue**: 955 · **提交数**: 19448
+- **发布数**: 159 · **已合并 PR**: 1812 · **开放 PR**: 87 · **已关闭 issue**: 7414 · **开放 issue**: 955 · **提交数**: 19455
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 10 | 9 | 20 | 7 | 408 |
-| last60d | 2026-07-24 | 2 | 17 | 11 | 38 | 13 | 475 |
-| 90d | 2026-06-24 | 3 | 26 | 11 | 57 | 15 | 563 |
-| last180d | 2026-03-26 | 4 | 47 | 12 | 128 | 35 | 762 |
-| 360d | 2025-09-27 | 11 | 105 | 18 | 269 | 74 | 1197 |
-| last720d | 2024-10-02 | 21 | 219 | 27 | 620 | 118 | 1707 |
+| 30d | 2026-08-24 | 1 | 10 | 10 | 21 | 7 | 415 |
+| last60d | 2026-07-25 | 2 | 17 | 12 | 39 | 12 | 482 |
+| 90d | 2026-06-25 | 3 | 26 | 12 | 58 | 15 | 570 |
+| last180d | 2026-03-27 | 4 | 47 | 13 | 128 | 35 | 769 |
+| 360d | 2025-09-28 | 11 | 104 | 19 | 267 | 74 | 1204 |
+| last720d | 2024-10-03 | 21 | 219 | 28 | 620 | 118 | 1714 |
 
 ## Release 资产
 
@@ -90,4 +90,4 @@ pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:03:32Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:15:48Z._
