@@ -18,7 +18,7 @@ Total: **121,462** lines of code across **603** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 101,285 | 12,976 | 9,753 | 365 |
+| Haskell | 101,285 | 12,977 | 9,753 | 365 |
 | Xml | 4,491 | 0 | 2 | 47 |
 | Lua | 3,236 | 181 | 208 | 48 |
 | Yaml | 2,541 | 163 | 53 | 130 |
@@ -42,44 +42,44 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `3.11` (2026-08-29)
+- **Latest**: `3.12` (2026-09-29)
 - **Last commit**: 2026-09-29
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 46,440 · **Forks**: 5,167 · **Open issues**: 8,384 · **Contributors**: 587
+- **Stars**: 46,454 · **Forks**: 5,269 · **Open issues**: 8,386 · **Contributors**: 587
 
 ## Totals (cumulative)
 
-- **Releases**: 159 · **Merged PRs**: 1816 · **Open PRs**: 89 · **Closed issues**: 7419 · **Open issues**: 965 · **Commits**: 19504
+- **Releases**: 160 · **Merged PRs**: 1816 · **Open PRs**: 90 · **Closed issues**: 7420 · **Open issues**: 966 · **Commits**: 19508
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 11 | 11 | 24 | 18 | 438 |
-| last60d | 2026-07-31 | 2 | 18 | 14 | 42 | 22 | 529 |
-| 90d | 2026-07-01 | 3 | 28 | 14 | 58 | 26 | 610 |
-| last180d | 2026-04-02 | 4 | 51 | 15 | 132 | 46 | 818 |
-| 360d | 2025-10-04 | 10 | 104 | 21 | 265 | 85 | 1242 |
-| last720d | 2024-10-09 | 20 | 220 | 29 | 616 | 129 | 1747 |
+| 30d | 2026-08-31 | 1 | 11 | 12 | 23 | 19 | 440 |
+| last60d | 2026-08-01 | 3 | 18 | 15 | 43 | 23 | 531 |
+| 90d | 2026-07-02 | 4 | 28 | 15 | 59 | 27 | 612 |
+| last180d | 2026-04-03 | 5 | 51 | 16 | 133 | 47 | 820 |
+| 360d | 2025-10-05 | 11 | 104 | 22 | 265 | 86 | 1244 |
+| last720d | 2024-10-10 | 21 | 220 | 30 | 616 | 130 | 1747 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pandoc-3.11-1-amd64.deb](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-amd64.deb) | 32.8 MiB | `other` |
-| [pandoc-3.11-1-arm64.deb](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-arm64.deb) | 35.2 MiB | `other` |
-| [pandoc-3.11-arm64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-arm64-macOS.pkg) | 39.8 MiB | `native/darwin/arm64` |
-| [pandoc-3.11-arm64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-arm64-macOS.zip) | 39.9 MiB | `native/darwin/arm64` |
-| [pandoc-3.11-linux-amd64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-linux-amd64.tar.gz) | 33.3 MiB | `native/linux/x64` |
-| [pandoc-3.11-linux-arm64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-linux-arm64.tar.gz) | 35.7 MiB | `native/linux/arm64` |
-| [pandoc-3.11-windows-x86_64.msi](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-windows-x86_64.msi) | 39.6 MiB | `native/win/x64` |
-| [pandoc-3.11-windows-x86_64.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-windows-x86_64.zip) | 39.8 MiB | `native/win/x64` |
-| [pandoc-3.11-x86_64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-x86_64-macOS.pkg) | 24.9 MiB | `native/darwin/x64` |
-| [pandoc-3.11-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-x86_64-macOS.zip) | 24.9 MiB | `native/darwin/x64` |
-| [pandoc-3.11.wasm.zip](https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11.wasm.zip) | 15.7 MiB | `other` |
+| [pandoc-3.12-1-amd64.deb](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-1-amd64.deb) | 33.1 MiB | `other` |
+| [pandoc-3.12-1-arm64.deb](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-1-arm64.deb) | 35.6 MiB | `other` |
+| [pandoc-3.12-arm64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-arm64-macOS.pkg) | 40.2 MiB | `native/darwin/arm64` |
+| [pandoc-3.12-arm64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-arm64-macOS.zip) | 40.3 MiB | `native/darwin/arm64` |
+| [pandoc-3.12-linux-amd64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-linux-amd64.tar.gz) | 33.7 MiB | `native/linux/x64` |
+| [pandoc-3.12-linux-arm64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-linux-arm64.tar.gz) | 36.1 MiB | `native/linux/arm64` |
+| [pandoc-3.12-windows-x86_64.msi](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-windows-x86_64.msi) | 39.9 MiB | `native/win/x64` |
+| [pandoc-3.12-windows-x86_64.zip](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-windows-x86_64.zip) | 40.2 MiB | `native/win/x64` |
+| [pandoc-3.12-x86_64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-x86_64-macOS.pkg) | 25.2 MiB | `native/darwin/x64` |
+| [pandoc-3.12-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-x86_64-macOS.zip) | 25.2 MiB | `native/darwin/x64` |
+| [pandoc-3.12.wasm.zip](https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12.wasm.zip) | 15.9 MiB | `other` |
 
 ## Improve this data
 
@@ -90,4 +90,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:56:37Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:55:16Z._
