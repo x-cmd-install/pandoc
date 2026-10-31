@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 46,750 · **Forks**: 5,823 · **Open issues**: 8,442 · **Contributors**: 599
+- **Stars**: 46,766 · **Forks**: 5,817 · **Open issues**: 8,443 · **Contributors**: 599
 
 ## Totals (cumulative)
 
-- **Releases**: 162 · **Merged PRs**: 1842 · **Open PRs**: 91 · **Closed issues**: 7480 · **Open issues**: 962 · **Commits**: 19724
+- **Releases**: 162 · **Merged PRs**: 1842 · **Open PRs**: 104 · **Closed issues**: 7481 · **Open issues**: 962 · **Commits**: 19724
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 20 | 12 | 38 | 18 | 205 |
-| last60d | 2026-08-31 | 3 | 37 | 16 | 70 | 29 | 701 |
-| 90d | 2026-08-01 | 5 | 44 | 19 | 91 | 32 | 786 |
-| last180d | 2026-05-03 | 7 | 72 | 20 | 157 | 47 | 1004 |
-| 360d | 2025-11-04 | 11 | 121 | 23 | 287 | 88 | 1445 |
-| last720d | 2024-11-09 | 23 | 239 | 31 | 637 | 132 | 1909 |
+| 30d | 2026-10-01 | 2 | 20 | 25 | 38 | 18 | 205 |
+| last60d | 2026-09-01 | 3 | 37 | 29 | 70 | 29 | 701 |
+| 90d | 2026-08-02 | 5 | 44 | 32 | 92 | 32 | 786 |
+| last180d | 2026-05-04 | 7 | 72 | 33 | 157 | 47 | 1004 |
+| 360d | 2025-11-05 | 11 | 121 | 35 | 286 | 88 | 1445 |
+| last720d | 2024-11-10 | 23 | 239 | 44 | 637 | 132 | 1908 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **305** distros on [repology.org](https://repology.org/project/pandoc). **10** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
+Reported by **305** distros on [repology.org](https://repology.org/project/pandoc). **12** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:55:54Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:44:41Z._
