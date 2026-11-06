@@ -1,3 +1,19 @@
+- repo: altsisyphus
+  srcname: pandoc
+  binnames:
+    - pandoc
+    - pandoc-debuginfo
+  visiblename: pandoc
+  version: "3.12"
+  origversion: 3.12-alt1
+  status: outdated
+  summary: Markup conversion tool for markdown
+  maintainers:
+    - ancieg@altlinux.org
+  licenses:
+    - GPLv2+
+  categories:
+    - Publishing
 - repo: aerynos
   srcname: pandoc
   visiblename: pandoc
@@ -20,22 +36,6 @@
   summary: Markup conversion tool for markdown
   maintainers:
     - respublica@altlinux.org
-  licenses:
-    - GPLv2+
-  categories:
-    - Publishing
-- repo: altsisyphus
-  srcname: pandoc
-  binnames:
-    - pandoc
-    - pandoc-debuginfo
-  visiblename: pandoc
-  version: "3.12"
-  origversion: 3.12-alt1
-  status: outdated
-  summary: Markup conversion tool for markdown
-  maintainers:
-    - ancieg@altlinux.org
   licenses:
     - GPLv2+
   categories:
@@ -156,6 +156,17 @@
   summary: Pandoc - executable only, without 750MB Haskell depends/makedepends
   licenses:
     - GPL-2.0-or-later
+- repo: artix_testing
+  subrepo: world-gremlins
+  srcname: pandoc-bin
+  binname: pandoc-bin
+  visiblename: pandoc-bin
+  version: "3.13"
+  origversion: 3.13-1
+  status: newest
+  summary: Pandoc - executable only, without 750MB Haskell depends/makedepends
+  licenses:
+    - GPL-2.0-or-later
 - repo: chocolatey
   binname: pandoc
   visiblename: Pandoc
@@ -183,32 +194,6 @@
   summary: Conversion between markup formats, "Bin"-Edition
   maintainers:
     - tbier@posteo.de
-- repo: chromebrew
-  srcname: pandoc
-  visiblename: pandoc
-  version: 3.1.1
-  origversion: null
-  status: outdated
-  summary: Universal markup converter
-  licenses:
-    - GPL-2+
-  vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: 3.1.11.1
-  origversion: 3.1.11.1+ds-2
-  status: outdated
-  maintainers:
-    - debian-haskell@lists.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-  categories:
-    - text
 - repo: debian_13
   subrepo: trixie/main
   srcname: haskell-pandoc
@@ -226,6 +211,22 @@
     - swt@techie.net
   categories:
     - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: pandoc
+  binnames:
+    - pandoc
+  visiblename: pandoc
+  version: 3.1.11.1
+  origversion: 3.1.11.1+ds-2
+  status: outdated
+  maintainers:
+    - debian-haskell@lists.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
+  categories:
+    - text
 - repo: debian_14
   subrepo: forky/main
   srcname: pandoc
@@ -262,40 +263,23 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: haskell-pandoc
+  srcname: pandoc
   binnames:
-    - libghc-pandoc-dev
-    - libghc-pandoc-prof
-    - libghc-pandoc-doc
-    - pandoc-data
-  visiblename: haskell-pandoc
+    - pandoc
+  visiblename: pandoc
   version: "3.11"
   origversion: 3.11-1
   status: outdated
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
     - swt@techie.net
   categories:
-    - misc
+    - text
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: "3.11"
-  origversion: 3.11-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-    - swt@techie.net
-  categories:
-    - text
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -328,6 +312,23 @@
     - swt@techie.net
   categories:
     - text
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: haskell-pandoc
+  binnames:
+    - libghc-pandoc-dev
+    - libghc-pandoc-prof
+    - libghc-pandoc-doc
+    - pandoc-data
+  visiblename: haskell-pandoc
+  version: "3.11"
+  origversion: 3.11-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - swt@techie.net
+  categories:
+    - misc
 - repo: epel_10
   srcname: pandoc
   binnames:
@@ -484,6 +485,19 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: gentoo
+  srcname: dev-haskell/pandoc
+  visiblename: dev-haskell/pandoc
+  version: "3.10"
+  origversion: null
+  status: outdated
+  summary: Conversion between markup formats
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - GPL-2+
+  categories:
+    - dev-haskell
 - repo: fedora_rawhide
   subrepo: development
   srcname: ghc-pandoc
@@ -601,25 +615,11 @@
     - GPL-2+
   categories:
     - app-text
-- repo: nix_unstable
-  srcname: haskellPackages.pandoc_3_9_0_2
-  visiblename: pandoc
-  version: 3.9.0.2
-  origversion: null
-  status: outdated
-  summary: Conversion between markup formats
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - haskellPackages
-- repo: gentoo
+- repo: liguros_stable
   srcname: dev-haskell/pandoc
   visiblename: dev-haskell/pandoc
-  version: "3.10"
-  origversion: null
+  version: 3.1.8
+  origversion: 3.1.8-r2
   status: outdated
   summary: Conversion between markup formats
   maintainers:
@@ -728,19 +728,6 @@
   maintainers:
     - cedric@vouivre.org
 - repo: liguros_stable
-  srcname: dev-haskell/pandoc
-  visiblename: dev-haskell/pandoc
-  version: 3.1.8
-  origversion: 3.1.8-r2
-  status: outdated
-  summary: Conversion between markup formats
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - GPL-2+
-  categories:
-    - dev-haskell
-- repo: liguros_stable
   srcname: app-text/pandoc-bin
   visiblename: app-text/pandoc-bin
   version: 3.7.0.1
@@ -779,32 +766,6 @@
     - GPL-2+
   categories:
     - app-text
-- repo: liguros_develop
-  srcname: dev-haskell/pandoc
-  visiblename: dev-haskell/pandoc
-  version: 3.1.8
-  origversion: 3.1.8-r2
-  status: legacy
-  summary: Conversion between markup formats
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - GPL-2+
-  categories:
-    - dev-haskell
-- repo: liguros_develop
-  srcname: dev-haskell/pandoc
-  visiblename: dev-haskell/pandoc
-  version: "3.10"
-  origversion: null
-  status: outdated
-  summary: Conversion between markup formats
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - GPL-2+
-  categories:
-    - dev-haskell
 - repo: liguros_develop
   srcname: app-text/pandoc-bin
   visiblename: app-text/pandoc-bin
@@ -857,13 +818,39 @@
     - GPL-2+
   categories:
     - app-text
+- repo: liguros_develop
+  srcname: dev-haskell/pandoc
+  visiblename: dev-haskell/pandoc
+  version: 3.1.8
+  origversion: 3.1.8-r2
+  status: legacy
+  summary: Conversion between markup formats
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - GPL-2+
+  categories:
+    - dev-haskell
+- repo: liguros_develop
+  srcname: dev-haskell/pandoc
+  visiblename: dev-haskell/pandoc
+  version: "3.10"
+  origversion: null
+  status: outdated
+  summary: Conversion between markup formats
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - GPL-2+
+  categories:
+    - dev-haskell
 - repo: macports
   srcname: textproc/pandoc
   binname: pandoc
   visiblename: pandoc
-  version: 3.10.1
+  version: "3.13"
   origversion: null
-  status: outdated
+  status: newest
   summary: Conversion between markup formats
   maintainers:
     - judaew@macports
@@ -1029,6 +1016,20 @@
   version: 3.7.0.2
   origversion: null
   status: legacy
+  summary: Conversion between markup formats
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - haskellPackages
+- repo: nix_unstable
+  srcname: haskellPackages.pandoc_3_9_0_2
+  visiblename: pandoc
+  version: 3.9.0.2
+  origversion: null
+  status: outdated
   summary: Conversion between markup formats
   maintainers:
     - mail@maralorn.de
@@ -1542,11 +1543,11 @@
   categories:
     - Unspecified
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: ghc-pandoc
   visiblename: ghc-pandoc
   version: 3.1.11.1
-  origversion: 3.1.11.1-150500.11.3.1
+  origversion: 3.1.11.1-150500.11.6.1
   status: outdated
   summary: Conversion between markup formats
   licenses:
@@ -1554,11 +1555,11 @@
   categories:
     - Unspecified
 - repo: opensuse_leap_15_6
-  subrepo: updates/sle
+  subrepo: main/oss
   srcname: ghc-pandoc
   visiblename: ghc-pandoc
   version: 3.1.11.1
-  origversion: 3.1.11.1-150500.11.6.1
+  origversion: 3.1.11.1-150500.11.3.1
   status: outdated
   summary: Conversion between markup formats
   licenses:
@@ -1596,7 +1597,7 @@
   licenses:
     - GPL-2.0-or-later
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -1613,7 +1614,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: pandoc
   binnames:
     - pandoc
@@ -1629,7 +1630,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -1646,7 +1647,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: pandoc
   binnames:
     - pandoc
@@ -1700,18 +1701,6 @@
   categories:
     - converters
 - repo: pkgsrc_2026_3
-  srcname: converters/pandoc
-  binname: pandoc
-  visiblename: converters/pandoc
-  version: 3.7.0.2
-  origversion: null
-  status: outdated
-  summary: Conversion between documentation formats
-  maintainers:
-    - zecrazytux@zecrazytux.net
-  categories:
-    - converters
-- repo: pkgsrc_2026_3
   srcname: converters/hs-pandoc
   binname: hs-pandoc
   visiblename: converters/hs-pandoc
@@ -1721,6 +1710,18 @@
   summary: Pandoc document conversion library
   maintainers:
     - pkgsrc-users@netbsd.org
+  categories:
+    - converters
+- repo: pkgsrc_2026_3
+  srcname: converters/pandoc
+  binname: pandoc
+  visiblename: converters/pandoc
+  version: 3.7.0.2
+  origversion: null
+  status: outdated
+  summary: Conversion between documentation formats
+  maintainers:
+    - zecrazytux@zecrazytux.net
   categories:
     - converters
 - repo: pkgsrc_current
@@ -1782,6 +1783,22 @@
     - text
 - repo: raspbian_stable
   subrepo: main
+  srcname: pandoc
+  binnames:
+    - pandoc
+  visiblename: pandoc
+  version: 3.1.11.1
+  origversion: 3.1.11.1+ds-2
+  status: outdated
+  maintainers:
+    - debian-haskell@lists.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
+  categories:
+    - text
+- repo: raspbian_stable
+  subrepo: main
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -1797,39 +1814,6 @@
     - swt@techie.net
   categories:
     - haskell
-- repo: raspbian_stable
-  subrepo: main
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: 3.1.11.1
-  origversion: 3.1.11.1+ds-2
-  status: outdated
-  maintainers:
-    - debian-haskell@lists.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-  categories:
-    - text
-- repo: raspbian_testing
-  subrepo: main
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: "3.11"
-  origversion: 3.11-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-    - swt@techie.net
-  categories:
-    - text
 - repo: raspbian_testing
   subrepo: main
   srcname: haskell-pandoc
@@ -1847,6 +1831,23 @@
     - swt@techie.net
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pandoc
+  binnames:
+    - pandoc
+  visiblename: pandoc
+  version: "3.11"
+  origversion: 3.11-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
+    - swt@techie.net
+  categories:
+    - text
 - repo: rosa_13
   subrepo: contrib/release
   srcname: pandoc
@@ -1885,13 +1886,6 @@
     - uglyside@yandex.ru
   licenses:
     - GPL-2
-- repo: pld
-  srcname: pandoc
-  visiblename: pandoc
-  version: 2.9.2.1
-  origversion: 2.9.2.1-3
-  status: outdated
-  vulnerable: true
 - repo: slackbuilds
   srcname: office/pandoc-bin
   visiblename: office/pandoc-bin
@@ -1933,9 +1927,9 @@
 - repo: spack
   srcname: pandoc
   visiblename: pandoc
-  version: 3.7.0.2
+  version: "3.13"
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - fallback-mnt-spack@repology
   licenses:
@@ -2042,6 +2036,22 @@
     - universe/misc
 - repo: ubuntu_26_04
   subrepo: resolute/universe
+  srcname: pandoc
+  binnames:
+    - pandoc
+  visiblename: pandoc
+  version: 3.7.0.2
+  origversion: 3.7.0.2+ds-1
+  status: outdated
+  maintainers:
+    - debian-haskell@lists.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
+  categories:
+    - universe/text
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -2057,22 +2067,6 @@
     - swt@techie.net
   categories:
     - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: 3.7.0.2
-  origversion: 3.7.0.2+ds-1
-  status: outdated
-  maintainers:
-    - debian-haskell@lists.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-  categories:
-    - universe/text
 - repo: ubuntu_26_10
   subrepo: stonking/universe
   srcname: haskell-pandoc
@@ -2160,31 +2154,19 @@
   srcname: pandoc64
   binname: pandoc64
   visiblename: Pandoc 64 bit
-  version: 2.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: "2.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
   version: "2.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: "2.8"
   origversion: null
   status: legacy
   licenses:
@@ -2216,83 +2198,11 @@
   categories:
     - Productivity
   vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: 2.7.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: 2.7.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
 - repo: npackd_stable
   srcname: com.github.jgm.pandoc
   binname: com.github.jgm.pandoc
   visiblename: Pandoc
-  version: 2.0.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: 2.7.3
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: "2.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.0.3
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: 2.8.0.1
+  version: 2.0.5
   origversion: null
   status: legacy
   licenses:
@@ -2312,47 +2222,25 @@
   categories:
     - Productivity
   vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.0.5
-  origversion: null
+- repo: gentoo
+  srcname: app-text/pandoc
+  visiblename: app-text/pandoc
+  version: "2.18"
+  origversion: 2.18-r2
   status: legacy
+  summary: Conversion between markup formats
+  maintainers:
+    - haskell@gentoo.org
   licenses:
-    - GPLv2
+    - GPL-2+
   categories:
-    - Productivity
+    - app-text
   vulnerable: true
 - repo: npackd_stable
   srcname: com.github.jgm.pandoc
   binname: com.github.jgm.pandoc
   visiblename: Pandoc
   version: 2.0.6
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.2.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.1"
   origversion: null
   status: legacy
   licenses:
@@ -2374,261 +2262,6 @@
     - GPLv2+
   categories:
     - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.1.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.1.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.2.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.1.3
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: 2.2.3.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.5"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.2.2.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.7.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: "2.11"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: pandoc64
-  binname: pandoc64
-  visiblename: Pandoc 64 bit
-  version: "2.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.2.3.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "1.18"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 1.17.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: powertools
-  srcname: pandoc
-  visiblename: pandoc
-  version: 2.0.6
-  origversion: 2.0.6-6.el8_6
-  status: outdated
-  summary: Conversion between markup formats
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 2.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: pandoc
-  binname: pandoc
-  visiblename: pandoc
-  version: 2.19.2
-  origversion: 2.19.2-r0
-  status: outdated
-  summary: universal markup converter
-  maintainers:
-    - jean-louis.fuchs@adfinis-sygroup.ch
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: 1.19.2.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
   vulnerable: true
 - repo: almalinux_8
   subrepo: PowerTools
@@ -2654,6 +2287,20 @@
   origversion: 2.19.2-r0
   status: outdated
   summary: universal markup converter (documentation)
+  maintainers:
+    - jean-louis.fuchs@adfinis-sygroup.ch
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: pandoc
+  binname: pandoc
+  visiblename: pandoc
+  version: 2.19.2
+  origversion: 2.19.2-r0
+  status: outdated
+  summary: universal markup converter
   maintainers:
     - jean-louis.fuchs@adfinis-sygroup.ch
   licenses:
@@ -2761,6 +2408,16 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: chromebrew
+  srcname: pandoc
+  visiblename: pandoc
+  version: 3.1.1
+  origversion: null
+  status: outdated
+  summary: Universal markup converter
+  licenses:
+    - GPL-2+
+  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: pandoc
@@ -2802,18 +2459,6 @@
     - kiwamu@debian.or.jp
   categories:
     - text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: com.github.jgm.pandoc
-  binname: com.github.jgm.pandoc
-  visiblename: Pandoc
-  version: "2.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
   vulnerable: true
 - repo: deepin_unstable
   subrepo: main
@@ -2967,6 +2612,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: powertools
+  srcname: pandoc
+  visiblename: pandoc
+  version: 2.0.6
+  origversion: 2.0.6-6.el8_6
+  status: outdated
+  summary: Conversion between markup formats
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: exherbo
   subrepo: haskell-unofficial
   srcname: app-text/pandoc
@@ -2998,6 +2656,20 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+  vulnerable: true
+- repo: gentoo
+  srcname: app-text/pandoc
+  visiblename: app-text/pandoc
+  version: "3"
+  origversion: null
+  status: legacy
+  summary: Metapackage for pandoc version 3
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - metapackage
+  categories:
+    - app-text
   vulnerable: true
 - repo: fedora_39
   subrepo: updates
@@ -3041,7 +2713,7 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: gentoo
+- repo: liguros_stable
   srcname: app-text/pandoc
   visiblename: app-text/pandoc
   version: "2.18"
@@ -3055,7 +2727,7 @@
   categories:
     - app-text
   vulnerable: true
-- repo: gentoo
+- repo: liguros_stable
   srcname: app-text/pandoc
   visiblename: app-text/pandoc
   version: "3"
@@ -3066,6 +2738,34 @@
     - haskell@gentoo.org
   licenses:
     - metapackage
+  categories:
+    - app-text
+  vulnerable: true
+- repo: liguros_develop
+  srcname: app-text/pandoc
+  visiblename: app-text/pandoc
+  version: "3"
+  origversion: null
+  status: legacy
+  summary: Metapackage for pandoc version 3
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - metapackage
+  categories:
+    - app-text
+  vulnerable: true
+- repo: liguros_develop
+  srcname: app-text/pandoc
+  visiblename: app-text/pandoc
+  version: "2.18"
+  origversion: 2.18-r2
+  status: legacy
+  summary: Conversion between markup formats
+  maintainers:
+    - haskell@gentoo.org
+  licenses:
+    - GPL-2+
   categories:
     - app-text
   vulnerable: true
@@ -3073,69 +2773,13 @@
   srcname: com.github.jgm.pandoc
   binname: com.github.jgm.pandoc
   visiblename: Pandoc
-  version: 1.17.0.2
+  version: 2.0.3
   origversion: null
   status: legacy
   licenses:
     - GPLv2
   categories:
     - Productivity
-  vulnerable: true
-- repo: liguros_stable
-  srcname: app-text/pandoc
-  visiblename: app-text/pandoc
-  version: "2.18"
-  origversion: 2.18-r2
-  status: legacy
-  summary: Conversion between markup formats
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - GPL-2+
-  categories:
-    - app-text
-  vulnerable: true
-- repo: liguros_stable
-  srcname: app-text/pandoc
-  visiblename: app-text/pandoc
-  version: "3"
-  origversion: null
-  status: legacy
-  summary: Metapackage for pandoc version 3
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - metapackage
-  categories:
-    - app-text
-  vulnerable: true
-- repo: liguros_develop
-  srcname: app-text/pandoc
-  visiblename: app-text/pandoc
-  version: "3"
-  origversion: null
-  status: legacy
-  summary: Metapackage for pandoc version 3
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - metapackage
-  categories:
-    - app-text
-  vulnerable: true
-- repo: liguros_develop
-  srcname: app-text/pandoc
-  visiblename: app-text/pandoc
-  version: "2.18"
-  origversion: 2.18-r2
-  status: legacy
-  summary: Conversion between markup formats
-  maintainers:
-    - haskell@gentoo.org
-  licenses:
-    - GPL-2+
-  categories:
-    - app-text
   vulnerable: true
 - repo: manjaro_stable
   subrepo: extra
@@ -3160,6 +2804,66 @@
   summary: Conversion between markup formats
   licenses:
     - GPL
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 1.19.2.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 1.17.0.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 1.17.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "1.18"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
   vulnerable: true
 - repo: npackd_stable
   srcname: com.github.jgm.pandoc
@@ -3190,6 +2894,198 @@
   binname: com.github.jgm.pandoc
   visiblename: Pandoc
   version: 2.0.1.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.0.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.1.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.1.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.1.3
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.2.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.2.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.2.2.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.2.3.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.3.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: "2.7"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: com.github.jgm.pandoc
+  binname: com.github.jgm.pandoc
+  visiblename: Pandoc
+  version: 2.7.1
   origversion: null
   status: legacy
   licenses:
@@ -3357,6 +3253,102 @@
   srcname: pandoc64
   binname: pandoc64
   visiblename: Pandoc 64 bit
+  version: 2.2.3.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: "2.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: 2.3.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: "2.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: 2.7.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: 2.7.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: 2.7.3
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: 2.8.0.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
   version: 2.8.1
   origversion: null
   status: legacy
@@ -3442,6 +3434,18 @@
   binname: pandoc64
   visiblename: Pandoc 64 bit
   version: 2.10.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: pandoc64
+  binname: pandoc64
+  visiblename: Pandoc 64 bit
+  version: "2.11"
   origversion: null
   status: legacy
   licenses:
@@ -3878,6 +3882,13 @@
   categories:
     - Sciences/Mathematics
   vulnerable: true
+- repo: pld
+  srcname: pandoc
+  visiblename: pandoc
+  version: 2.9.2.1
+  origversion: 2.9.2.1-3
+  status: outdated
+  vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
   srcname: pandoc
@@ -4097,23 +4108,6 @@
   vulnerable: true
 - repo: ubuntu_24_04
   subrepo: noble/universe
-  srcname: pandoc
-  binnames:
-    - pandoc
-  visiblename: pandoc
-  version: 3.1.3
-  origversion: 3.1.3+ds-2
-  status: outdated
-  maintainers:
-    - debian-haskell@lists.debian.org
-    - clint@debian.org
-    - dr@jones.dk
-    - kiwamu@debian.or.jp
-  categories:
-    - universe/text
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/universe
   srcname: haskell-pandoc
   binnames:
     - libghc-pandoc-dev
@@ -4129,4 +4123,21 @@
     - swt@techie.net
   categories:
     - universe/misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: pandoc
+  binnames:
+    - pandoc
+  visiblename: pandoc
+  version: 3.1.3
+  origversion: 3.1.3+ds-2
+  status: outdated
+  maintainers:
+    - debian-haskell@lists.debian.org
+    - clint@debian.org
+    - dr@jones.dk
+    - kiwamu@debian.or.jp
+  categories:
+    - universe/text
   vulnerable: true
