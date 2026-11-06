@@ -14,12 +14,12 @@ x install pandoc
 
 ## Code insight
 
-Total: **1,936** lines of code across **11** files in the top 5 languages.
+Total: **1,938** lines of code across **11** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Cabal | 935 | 15 | 14 | 1 |
-| Yaml | 381 | 177 | 50 | 5 |
+| Yaml | 383 | 176 | 50 | 5 |
 | Makefile | 318 | 5 | 64 | 1 |
 | Nix | 189 | 65 | 34 | 3 |
 | Org | 111 | 0 | 6 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.13` (2026-10-26)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-06
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 46,818 · **Forks**: 5,136 · **Open issues**: 8,447 · **Contributors**: 601
+- **Stars**: 46,832 · **Forks**: 5,131 · **Open issues**: 8,448 · **Contributors**: 601
 
 ## Totals (cumulative)
 
-- **Releases**: 162 · **Merged PRs**: 1851 · **Open PRs**: 95 · **Closed issues**: 7484 · **Open issues**: 963 · **Commits**: 19748
+- **Releases**: 162 · **Merged PRs**: 1851 · **Open PRs**: 95 · **Closed issues**: 7484 · **Open issues**: 964 · **Commits**: 19762
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 2 | 27 | 16 | 29 | 17 | 158 |
-| last60d | 2026-09-06 | 3 | 45 | 20 | 69 | 30 | 601 |
-| 90d | 2026-08-07 | 5 | 51 | 23 | 92 | 33 | 805 |
-| last180d | 2026-05-09 | 7 | 78 | 24 | 147 | 47 | 1021 |
-| 360d | 2025-11-10 | 11 | 129 | 26 | 287 | 88 | 1465 |
-| last720d | 2024-11-15 | 23 | 246 | 35 | 636 | 133 | 1924 |
+| 30d | 2026-10-07 | 2 | 25 | 16 | 23 | 17 | 183 |
+| last60d | 2026-09-07 | 3 | 45 | 19 | 69 | 31 | 626 |
+| 90d | 2026-08-08 | 5 | 51 | 23 | 91 | 33 | 830 |
+| last180d | 2026-05-10 | 7 | 78 | 24 | 147 | 48 | 1046 |
+| 360d | 2025-11-11 | 11 | 129 | 26 | 287 | 88 | 1490 |
+| last720d | 2024-11-16 | 23 | 246 | 35 | 635 | 134 | 1937 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **306** distros on [repology.org](https://repology.org/project/pandoc). **15** are ✅ on the latest upstream release, **131** are ⚠️ on an older version.
+Reported by **307** distros on [repology.org](https://repology.org/project/pandoc). **18** are ✅ on the latest upstream release, **129** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -95,7 +95,7 @@ Reported by **306** distros on [repology.org](https://repology.org/project/pando
 | Arch | `3.11` | ⚠️ outdated |
 | Homebrew | `3.13` | ✅ latest |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
-| Nix unstable | `3.9.0.2` | ⚠️ outdated |
+| Nix unstable | `3.7.0.2` | 🪦 legacy |
 | Void | `3.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.10` | ⚠️ outdated |
 
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:48:24Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:49:46Z._
