@@ -14,14 +14,14 @@ x install pandoc
 
 ## 代码洞察
 
-合计: **121,666** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
+合计: **121,659** 行代码（覆盖前 5 种语言、共 **603** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 103,502 | 13,591 | 9,907 | 368 |
+| Haskell | 103,502 | 13,591 | 9,906 | 368 |
 | Xml | 4,489 | 0 | 2 | 47 |
 | Lua | 3,194 | 178 | 202 | 46 |
-| Yaml | 2,575 | 176 | 54 | 130 |
+| Yaml | 2,568 | 173 | 54 | 130 |
 | Html | 1,472 | 24 | 30 | 12 |
 
 ## OpenSSF Scorecard 评分
@@ -42,48 +42,48 @@ x install pandoc
 
 ## 发布
 
-- **最新版本**: `3.13` (2026-10-26)
-- **最近提交**: 2026-11-11
+- **最新版本**: `3.14` (2026-11-12)
+- **最近提交**: 2026-11-12
 - **Release 含资产**: 11 个
 
 ## 流行度
 
-- **Star**: 46,894 · **Fork**: 4,436 · **开放 issue**: 8,455 · **贡献者**: 601
+- **Star**: 46,924 · **Fork**: 4,436 · **开放 issue**: 8,456 · **贡献者**: 601
 
 ## 累计统计
 
-- **发布数**: 162 · **已合并 PR**: 1860 · **开放 PR**: 85 · **已关闭 issue**: 7498 · **开放 issue**: 957 · **提交数**: 19798
+- **发布数**: 163 · **已合并 PR**: 1860 · **开放 PR**: 85 · **已关闭 issue**: 7499 · **开放 issue**: 957 · **提交数**: 19821
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 32 | 7 | 30 | 15 | 208 |
-| last60d | 2026-09-12 | 3 | 50 | 9 | 71 | 24 | 528 |
-| 90d | 2026-08-13 | 4 | 58 | 14 | 100 | 29 | 852 |
-| last180d | 2026-05-15 | 7 | 86 | 15 | 155 | 44 | 1081 |
-| 360d | 2025-11-16 | 11 | 136 | 17 | 296 | 83 | 1530 |
-| last720d | 2024-11-21 | 23 | 253 | 26 | 642 | 130 | 1971 |
+| 30d | 2026-10-13 | 2 | 30 | 7 | 31 | 15 | 232 |
+| last60d | 2026-09-13 | 4 | 50 | 9 | 70 | 24 | 552 |
+| 90d | 2026-08-14 | 5 | 58 | 14 | 101 | 29 | 876 |
+| last180d | 2026-05-16 | 8 | 86 | 15 | 156 | 43 | 1105 |
+| 360d | 2025-11-17 | 12 | 134 | 17 | 297 | 83 | 1554 |
+| last720d | 2024-11-22 | 24 | 253 | 26 | 641 | 130 | 1994 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [pandoc-3.13-1-amd64.deb](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-1-amd64.deb) | 33.9 MiB | `other` |
-| [pandoc-3.13-1-arm64.deb](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-1-arm64.deb) | 36.3 MiB | `other` |
-| [pandoc-3.13-arm64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-arm64-macOS.pkg) | 41.0 MiB | `native/darwin/arm64` |
-| [pandoc-3.13-arm64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-arm64-macOS.zip) | 41.1 MiB | `native/darwin/arm64` |
-| [pandoc-3.13-linux-amd64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz) | 34.4 MiB | `native/linux/x64` |
-| [pandoc-3.13-linux-arm64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-arm64.tar.gz) | 36.9 MiB | `native/linux/arm64` |
-| [pandoc-3.13-wasm.zip](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-wasm.zip) | 16.2 MiB | `other` |
-| [pandoc-3.13-windows-x86_64.msi](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.msi) | 40.7 MiB | `native/win/x64` |
-| [pandoc-3.13-windows-x86_64.zip](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.zip) | 41.0 MiB | `native/win/x64` |
-| [pandoc-3.13-x86_64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-x86_64-macOS.pkg) | 25.6 MiB | `native/darwin/x64` |
-| [pandoc-3.13-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-x86_64-macOS.zip) | 25.6 MiB | `native/darwin/x64` |
+| [pandoc-3.14-1-amd64.deb](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-1-amd64.deb) | 34.4 MiB | `other` |
+| [pandoc-3.14-1-arm64.deb](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-1-arm64.deb) | 36.9 MiB | `other` |
+| [pandoc-3.14-arm64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-arm64-macOS.pkg) | 41.5 MiB | `native/darwin/arm64` |
+| [pandoc-3.14-arm64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-arm64-macOS.zip) | 41.7 MiB | `native/darwin/arm64` |
+| [pandoc-3.14-linux-amd64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-amd64.tar.gz) | 34.9 MiB | `native/linux/x64` |
+| [pandoc-3.14-linux-arm64.tar.gz](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-arm64.tar.gz) | 37.4 MiB | `native/linux/arm64` |
+| [pandoc-3.14-wasm.zip](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-wasm.zip) | 16.3 MiB | `other` |
+| [pandoc-3.14-windows-x86_64.msi](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-windows-x86_64.msi) | 41.3 MiB | `native/win/x64` |
+| [pandoc-3.14-windows-x86_64.zip](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-windows-x86_64.zip) | 41.6 MiB | `native/win/x64` |
+| [pandoc-3.14-x86_64-macOS.pkg](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-x86_64-macOS.pkg) | 26.2 MiB | `native/darwin/x64` |
+| [pandoc-3.14-x86_64-macOS.zip](https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-x86_64-macOS.zip) | 26.2 MiB | `native/darwin/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/pandoc) 上共有 **309** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**130** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/pandoc) 上共有 **308** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**146** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -93,11 +93,11 @@ x install pandoc
 | Ubuntu 26.04 LTS | `3.7.0.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.3` | ⚠️ outdated |
 | Arch | `3.11` | ⚠️ outdated |
-| Homebrew | `3.13` | ✅ latest |
+| Homebrew | `3.13` | ⚠️ outdated |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
 | Nix unstable | `3.7.0.2` | 🪦 legacy |
 | Void | `3.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.13` | ✅ latest |
+| openSUSE Tumbleweed | `3.13` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -108,4 +108,4 @@ pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261111.yml` · 2026-11-11T06:21:50Z._
+_数据快照: `data/card/261112.yml` · 2026-11-12T07:41:56Z._
