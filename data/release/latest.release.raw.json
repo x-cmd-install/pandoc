@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 36039194,
       "digest": "sha256:dedb81f20345b76d7168ba551d90abceb707977fece789a79874094fe3833915",
-      "download_count": 2549,
+      "download_count": 4647,
       "created_at": "2026-11-12T04:30:12Z",
       "updated_at": "2026-11-12T04:30:21Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-1-amd64.deb"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 38646082,
       "digest": "sha256:3e8e676a641ff752284d474951fe7a7f4a08c04cb3915fe0b20049c1be27f6c4",
-      "download_count": 491,
+      "download_count": 862,
       "created_at": "2026-11-12T04:30:21Z",
       "updated_at": "2026-11-12T04:30:32Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-1-arm64.deb"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 43566329,
       "digest": "sha256:33f1049a362f782b2f2ee81d99d110d0283047312650ce1ab7f5c9116ec9ca51",
-      "download_count": 452,
+      "download_count": 830,
       "created_at": "2026-11-12T04:30:32Z",
       "updated_at": "2026-11-12T04:30:42Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-arm64-macOS.pkg"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 43712865,
       "digest": "sha256:58d6593884fec9d4424b641b92503c316d9c36decb2891ff8d73ae74dd3b6304",
-      "download_count": 658,
+      "download_count": 1232,
       "created_at": "2026-11-12T04:30:42Z",
       "updated_at": "2026-11-12T04:30:51Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-arm64-macOS.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 36635549,
       "digest": "sha256:c5f4720cdefb3f7bdc5d07202ef579feef0d1370773c873804dd8fdaa8c4f1b8",
-      "download_count": 3230,
+      "download_count": 5521,
       "created_at": "2026-11-12T04:30:51Z",
       "updated_at": "2026-11-12T04:31:00Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-amd64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 39208196,
       "digest": "sha256:c692f3d78a415741bbbac4cdbbbe26fa7edca1f43d2301b982fbf4009cc8cf7f",
-      "download_count": 367,
+      "download_count": 660,
       "created_at": "2026-11-12T04:31:00Z",
       "updated_at": "2026-11-12T04:31:09Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-arm64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 17052352,
       "digest": "sha256:84e1023db1892cfdeb9ee518b8d95e6f6c667bbde7c99f24ec889a2099367ee5",
-      "download_count": 86,
+      "download_count": 143,
       "created_at": "2026-11-12T04:31:09Z",
       "updated_at": "2026-11-12T04:31:14Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-wasm.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 43319296,
       "digest": "sha256:7794998679a6afa1d7c3f7adee689aa17ed75e8a06faf2ed7c60a303bccfcf23",
-      "download_count": 17060,
+      "download_count": 25700,
       "created_at": "2026-11-12T04:31:14Z",
       "updated_at": "2026-11-12T04:31:26Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-windows-x86_64.msi"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 43614099,
       "digest": "sha256:0144b96e8c7b023fd382ec5ef5bdc475e873f1019d6fa72502492df2c9a94a3b",
-      "download_count": 5096,
+      "download_count": 8124,
       "created_at": "2026-11-12T04:31:26Z",
       "updated_at": "2026-11-12T04:31:36Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-windows-x86_64.zip"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 27431693,
       "digest": "sha256:145a39969291a8af79fe81037be3eb6e56511f0056b4dfd562571312f0b9b7c7",
-      "download_count": 412,
+      "download_count": 680,
       "created_at": "2026-11-12T04:31:36Z",
       "updated_at": "2026-11-12T04:31:42Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-x86_64-macOS.pkg"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 27490795,
       "digest": "sha256:891708579061e7b1c1a6ce0df30ebb3cb2b6d0ca045ed3c8554ab830c1e0c270",
-      "download_count": 176,
+      "download_count": 347,
       "created_at": "2026-11-12T04:31:42Z",
       "updated_at": "2026-11-12T04:31:49Z",
       "browser_download_url": "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-x86_64-macOS.zip"
@@ -439,13 +439,13 @@
   "discussion_url": "https://github.com/jgm/pandoc/discussions/12074",
   "reactions": {
     "url": "https://api.github.com/repos/jgm/pandoc/releases/442497908/reactions",
-    "total_count": 21,
-    "+1": 10,
+    "total_count": 25,
+    "+1": 13,
     "-1": 0,
     "laugh": 0,
     "hooray": 5,
     "confused": 0,
-    "heart": 3,
+    "heart": 4,
     "rocket": 2,
     "eyes": 1
   }
