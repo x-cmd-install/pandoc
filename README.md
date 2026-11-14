@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 46,938 · **Forks**: 4,436 · **Open issues**: 8,456 · **Contributors**: 601
+- **Stars**: 46,928 · **Forks**: 4,435 · **Open issues**: 8,457 · **Contributors**: 601
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 1860 · **Open PRs**: 85 · **Closed issues**: 7499 · **Open issues**: 957 · **Commits**: 19821
+- **Releases**: 163 · **Merged PRs**: 1860 · **Open PRs**: 85 · **Closed issues**: 7499 · **Open issues**: 958 · **Commits**: 19821
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 2 | 29 | 7 | 30 | 13 | 232 |
-| last60d | 2026-09-14 | 4 | 47 | 9 | 69 | 24 | 552 |
-| 90d | 2026-08-15 | 5 | 58 | 14 | 100 | 29 | 876 |
-| last180d | 2026-05-17 | 8 | 86 | 15 | 156 | 42 | 1105 |
-| 360d | 2025-11-18 | 12 | 134 | 17 | 295 | 83 | 1554 |
-| last720d | 2024-11-23 | 24 | 253 | 26 | 637 | 130 | 1991 |
+| 30d | 2026-10-15 | 2 | 29 | 7 | 30 | 14 | 232 |
+| last60d | 2026-09-15 | 4 | 47 | 9 | 69 | 25 | 552 |
+| 90d | 2026-08-16 | 5 | 58 | 14 | 98 | 29 | 876 |
+| last180d | 2026-05-18 | 8 | 86 | 15 | 156 | 43 | 1105 |
+| 360d | 2025-11-19 | 12 | 134 | 17 | 295 | 84 | 1554 |
+| last720d | 2024-11-24 | 24 | 253 | 26 | 635 | 131 | 1989 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **306** distros on [repology.org](https://repology.org/project/pandoc). **9** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
+Reported by **306** distros on [repology.org](https://repology.org/project/pandoc). **11** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,7 +93,7 @@ Reported by **306** distros on [repology.org](https://repology.org/project/pando
 | Ubuntu 26.04 LTS | `3.7.0.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.3` | ⚠️ outdated |
 | Arch | `3.11` | ⚠️ outdated |
-| Homebrew | `3.13` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
 | Nix unstable | `3.7.0.2` | 🪦 legacy |
 | Void | `3.6` | ⚠️ outdated |
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:57:49Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:43:49Z._
