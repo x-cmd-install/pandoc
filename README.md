@@ -14,11 +14,11 @@ x install pandoc
 
 ## Code insight
 
-Total: **121,802** lines of code across **603** files in the top 5 languages.
+Total: **121,917** lines of code across **603** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 103,643 | 13,634 | 9,918 | 368 |
+| Haskell | 103,758 | 13,668 | 9,926 | 368 |
 | Xml | 4,489 | 0 | 2 | 47 |
 | Lua | 3,194 | 178 | 202 | 46 |
 | Yaml | 2,570 | 173 | 54 | 130 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.14` (2026-11-12)
-- **Last commit**: 2026-11-20
+- **Last commit**: 2026-11-21
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 47,021 · **Forks**: 4,426 · **Open issues**: 8,465 · **Contributors**: 603
+- **Stars**: 47,025 · **Forks**: 4,426 · **Open issues**: 8,465 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 1875 · **Open PRs**: 104 · **Closed issues**: 7503 · **Open issues**: 962 · **Commits**: 19851
+- **Releases**: 163 · **Merged PRs**: 1890 · **Open PRs**: 89 · **Closed issues**: 7503 · **Open issues**: 962 · **Commits**: 19866
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 2 | 41 | 27 | 27 | 16 | 214 |
-| last60d | 2026-09-22 | 4 | 57 | 28 | 70 | 29 | 471 |
-| 90d | 2026-08-23 | 5 | 71 | 33 | 95 | 32 | 903 |
-| last180d | 2026-05-25 | 8 | 100 | 35 | 153 | 47 | 1148 |
-| 360d | 2025-11-26 | 12 | 148 | 37 | 296 | 88 | 1596 |
-| last720d | 2024-12-01 | 24 | 267 | 44 | 633 | 135 | 2017 |
+| 30d | 2026-10-23 | 2 | 53 | 12 | 23 | 12 | 198 |
+| last60d | 2026-09-23 | 4 | 71 | 13 | 69 | 29 | 446 |
+| 90d | 2026-08-24 | 5 | 86 | 18 | 95 | 32 | 902 |
+| last180d | 2026-05-26 | 8 | 115 | 20 | 152 | 47 | 1155 |
+| 360d | 2025-11-27 | 12 | 163 | 22 | 296 | 88 | 1595 |
+| last720d | 2024-12-02 | 24 | 282 | 29 | 633 | 135 | 2032 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:23:58Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T06:51:50Z._
