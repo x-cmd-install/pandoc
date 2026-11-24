@@ -26,13 +26,13 @@ Total: **121,960** lines of code across **603** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.7 / 10**
+Overall score: **7.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (0/10) — branch protection not enabled on development/release branches
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 47,043 · **Forks**: 4,424 · **Open issues**: 8,465 · **Contributors**: 603
+- **Stars**: 47,060 · **Forks**: 4,420 · **Open issues**: 8,467 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 1892 · **Open PRs**: 87 · **Closed issues**: 7508 · **Open issues**: 957 · **Commits**: 19869
+- **Releases**: 163 · **Merged PRs**: 1892 · **Open PRs**: 87 · **Closed issues**: 7510 · **Open issues**: 957 · **Commits**: 19869
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 55 | 10 | 23 | 11 | 204 |
-| last60d | 2026-09-24 | 4 | 72 | 11 | 70 | 28 | 452 |
-| 90d | 2026-08-25 | 5 | 88 | 16 | 95 | 31 | 908 |
-| last180d | 2026-05-27 | 8 | 115 | 18 | 152 | 46 | 1161 |
-| 360d | 2025-11-28 | 12 | 164 | 20 | 296 | 87 | 1601 |
-| last720d | 2024-12-03 | 24 | 284 | 27 | 634 | 133 | 2034 |
+| 30d | 2026-10-25 | 2 | 55 | 11 | 24 | 12 | 204 |
+| last60d | 2026-09-25 | 4 | 71 | 12 | 63 | 23 | 452 |
+| 90d | 2026-08-26 | 5 | 87 | 16 | 96 | 32 | 908 |
+| last180d | 2026-05-28 | 8 | 115 | 18 | 152 | 47 | 1161 |
+| 360d | 2025-11-29 | 12 | 164 | 20 | 296 | 88 | 1601 |
+| last720d | 2024-12-04 | 24 | 284 | 27 | 635 | 134 | 2030 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **307** distros on [repology.org](https://repology.org/project/pandoc). **17** are ✅ on the latest upstream release, **131** are ⚠️ on an older version.
+Reported by **307** distros on [repology.org](https://repology.org/project/pandoc). **18** are ✅ on the latest upstream release, **130** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,11 +93,11 @@ Reported by **307** distros on [repology.org](https://repology.org/project/pando
 | Ubuntu 26.04 LTS | `3.7.0.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.3` | ⚠️ outdated |
 | Arch | `3.11` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.14` | ✅ latest |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
 | Nix unstable | `3.7.0.2` | 🪦 legacy |
 | Void | `3.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.13` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.14` | ✅ latest |
 
 ## Improve this data
 
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:55:18Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:07:58Z._

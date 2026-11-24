@@ -26,13 +26,13 @@ x install pandoc
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.7 / 10**
+总评分: **7.3 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (0/10) — branch protection not enabled on development/release branches
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install pandoc
 
 ## 流行度
 
-- **Star**: 47,043 · **Fork**: 4,424 · **开放 issue**: 8,465 · **贡献者**: 603
+- **Star**: 47,060 · **Fork**: 4,420 · **开放 issue**: 8,467 · **贡献者**: 603
 
 ## 累计统计
 
-- **发布数**: 163 · **已合并 PR**: 1892 · **开放 PR**: 87 · **已关闭 issue**: 7508 · **开放 issue**: 957 · **提交数**: 19869
+- **发布数**: 163 · **已合并 PR**: 1892 · **开放 PR**: 87 · **已关闭 issue**: 7510 · **开放 issue**: 957 · **提交数**: 19869
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 55 | 10 | 23 | 11 | 204 |
-| last60d | 2026-09-24 | 4 | 72 | 11 | 70 | 28 | 452 |
-| 90d | 2026-08-25 | 5 | 88 | 16 | 95 | 31 | 908 |
-| last180d | 2026-05-27 | 8 | 115 | 18 | 152 | 46 | 1161 |
-| 360d | 2025-11-28 | 12 | 164 | 20 | 296 | 87 | 1601 |
-| last720d | 2024-12-03 | 24 | 284 | 27 | 634 | 133 | 2034 |
+| 30d | 2026-10-25 | 2 | 55 | 11 | 24 | 12 | 204 |
+| last60d | 2026-09-25 | 4 | 71 | 12 | 63 | 23 | 452 |
+| 90d | 2026-08-26 | 5 | 87 | 16 | 96 | 32 | 908 |
+| last180d | 2026-05-28 | 8 | 115 | 18 | 152 | 47 | 1161 |
+| 360d | 2025-11-29 | 12 | 164 | 20 | 296 | 88 | 1601 |
+| last720d | 2024-12-04 | 24 | 284 | 27 | 635 | 134 | 2030 |
 
 ## Release 资产
 
@@ -83,7 +83,7 @@ x install pandoc
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/pandoc) 上共有 **307** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**131** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/pandoc) 上共有 **307** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**130** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -93,11 +93,11 @@ x install pandoc
 | Ubuntu 26.04 LTS | `3.7.0.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.3` | ⚠️ outdated |
 | Arch | `3.11` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.14` | ✅ latest |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
 | Nix unstable | `3.7.0.2` | 🪦 legacy |
 | Void | `3.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.13` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.14` | ✅ latest |
 
 ## 改进这些数据
 
@@ -108,4 +108,4 @@ pandoc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T07:55:19Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:07:59Z._
