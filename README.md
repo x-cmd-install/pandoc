@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 47,091 · **Forks**: 4,405 · **Open issues**: 8,467 · **Contributors**: 603
+- **Stars**: 47,103 · **Forks**: 4,405 · **Open issues**: 8,469 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 1898 · **Open PRs**: 83 · **Closed issues**: 7511 · **Open issues**: 956 · **Commits**: 19878
+- **Releases**: 163 · **Merged PRs**: 1898 · **Open PRs**: 84 · **Closed issues**: 7511 · **Open issues**: 958 · **Commits**: 19878
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 59 | 7 | 25 | 10 | 218 |
-| last60d | 2026-09-27 | 4 | 76 | 8 | 65 | 20 | 466 |
-| 90d | 2026-08-28 | 5 | 93 | 12 | 96 | 30 | 922 |
-| last180d | 2026-05-30 | 8 | 119 | 14 | 153 | 45 | 1175 |
-| 360d | 2025-12-01 | 12 | 169 | 16 | 295 | 85 | 1615 |
-| last720d | 2024-12-06 | 24 | 290 | 23 | 635 | 132 | 2037 |
+| 30d | 2026-10-28 | 1 | 57 | 8 | 25 | 10 | 218 |
+| last60d | 2026-09-28 | 4 | 76 | 9 | 64 | 22 | 466 |
+| 90d | 2026-08-29 | 5 | 92 | 12 | 96 | 32 | 922 |
+| last180d | 2026-05-31 | 8 | 119 | 15 | 153 | 47 | 1175 |
+| 360d | 2025-12-02 | 11 | 167 | 17 | 294 | 86 | 1615 |
+| last720d | 2024-12-07 | 24 | 290 | 24 | 635 | 134 | 2034 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:25:08Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:58:46Z._
