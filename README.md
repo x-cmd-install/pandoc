@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.14` (2026-11-12)
-- **Last commit**: 2026-11-26
+- **Last commit**: 2026-11-27
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 47,103 · **Forks**: 4,405 · **Open issues**: 8,469 · **Contributors**: 603
+- **Stars**: 47,115 · **Forks**: 4,362 · **Open issues**: 8,470 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 1898 · **Open PRs**: 84 · **Closed issues**: 7511 · **Open issues**: 958 · **Commits**: 19878
+- **Releases**: 163 · **Merged PRs**: 1898 · **Open PRs**: 86 · **Closed issues**: 7511 · **Open issues**: 959 · **Commits**: 19879
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 57 | 8 | 25 | 10 | 218 |
-| last60d | 2026-09-28 | 4 | 76 | 9 | 64 | 22 | 466 |
-| 90d | 2026-08-29 | 5 | 92 | 12 | 96 | 32 | 922 |
-| last180d | 2026-05-31 | 8 | 119 | 15 | 153 | 47 | 1175 |
-| 360d | 2025-12-02 | 11 | 167 | 17 | 294 | 86 | 1615 |
-| last720d | 2024-12-07 | 24 | 290 | 24 | 635 | 134 | 2034 |
+| 30d | 2026-10-29 | 1 | 52 | 9 | 18 | 11 | 219 |
+| last60d | 2026-09-29 | 4 | 76 | 11 | 63 | 23 | 467 |
+| 90d | 2026-08-30 | 4 | 92 | 14 | 96 | 33 | 923 |
+| last180d | 2026-06-01 | 8 | 119 | 17 | 152 | 48 | 1176 |
+| 360d | 2025-12-03 | 11 | 167 | 19 | 294 | 87 | 1616 |
+| last720d | 2024-12-08 | 24 | 290 | 26 | 635 | 135 | 2021 |
 
 ## Release assets
 
@@ -95,7 +95,7 @@ Reported by **306** distros on [repology.org](https://repology.org/project/pando
 | Arch | `3.11` | ⚠️ outdated |
 | Homebrew | `3.14` | ✅ latest |
 | Fedora rawhide | `3.7.0.2` | ⚠️ outdated |
-| Nix unstable | `3.7.0.2` | 🪦 legacy |
+| Nix unstable | `3.9.0.2` | ⚠️ outdated |
 | Void | `3.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.14` | ✅ latest |
 
@@ -108,4 +108,4 @@ Install metadata for pandoc lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:58:46Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:44:47Z._
